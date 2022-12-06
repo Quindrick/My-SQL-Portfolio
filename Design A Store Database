@@ -1,0 +1,20 @@
+CREATE TABLE cars (id INTEGER PRIMARY KEY, make TEXT, model TEXT, color TEXT, year INTEGER, price INTEGER);  
+
+INSERT INTO cars VALUES (1, "Toyota", "4Runner", "Silver", 2017, 26987);
+INSERT INTO cars VALUES (2, "Kia", "Soul", "Black", 2014, 7896);
+INSERT INTO cars VALUES (3, "Toyota", "Highlander", "White", 2018, 18965);
+INSERT INTO cars VALUES (4, "Ford", "Focus", "Grey", 2016, 12835);
+INSERT INTO cars VALUES (5, "Chevorlet", "Camaro", "Blue", 2020, 24654);
+INSERT INTO cars VALUES (6, "Ford", "Escape", "Black", 2018, 17923);
+INSERT INTO cars VALUES (7, "Kia", "Sorento", "Red", 2022, 33856);
+INSERT INTO cars VALUES (8, "BMW", "X5", "Blue", 2013, 14123);
+INSERT INTO cars VALUES (9, "Toyota", "4Runner", "Red", 2015, 19509);
+INSERT INTO cars VALUES (10, "Jeep", "Grand Cherokee", "Grey", 2019, 16962);
+INSERT INTO cars VALUES (11, "Toyota", "Camry", "Brown", 2009, 6876);
+INSERT INTO cars VALUES (12, "Honda", "CRV", "Black", 2010, 12999);
+INSERT INTO cars VALUES (13, "Kia", "Niro", "Blue", 2021, 23999);
+INSERT INTO cars VALUES (14, "Volkswagon", "Jetta", "Grey", 2017, 13432);
+INSERT INTO cars VALUES (15, "Ford", "Bronco", "White", 2022, 42999);
+SELECT * FROM cars ORDER BY id;
+SELECT year, id FROM cars ORDER BY year DESC;
+SELECT * FROM cars;
